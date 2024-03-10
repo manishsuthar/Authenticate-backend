@@ -16,7 +16,6 @@ import { ContactController } from './contacts/contacts.controller';
       type: 'mongodb',
       url: 'mongodb+srv://manishpune2024:Sanderao11@cluster0.oec10jf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
       entities: [User, Contact],
-      ssl:false,
       synchronize: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,

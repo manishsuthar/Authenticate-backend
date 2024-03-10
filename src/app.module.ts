@@ -14,7 +14,7 @@ import { ContactController } from './contacts/contacts.controller';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb://localhost:27017/database',
+      url: 'mongodb+srv://manishpune2024:Sanderao11@cluster0.oec10jf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
       entities: [User, Contact],
       synchronize: true,
       useNewUrlParser: true,

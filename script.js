@@ -66,7 +66,7 @@ const contactList = [
 const { MongoClient } = require('mongodb');
 
 async function addMockUserDatabase() {
-    const uri = 'mongodb://localhost:27017'; 
+    const uri = 'mongodb+srv://manishpune2024:Sanderao11@cluster0.oec10jf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
     const dbName = 'database';
     const collectionName = 'user';
   
@@ -89,7 +89,7 @@ async function addMockUserDatabase() {
   }
 
 async function addMockContactDatabase() {
-  const uri = 'mongodb://localhost:27017'; 
+  const uri = 'mongodb+srv://manishpune2024:Sanderao11@cluster0.oec10jf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
   const dbName = 'database';
   const collectionName = 'contact';
 
